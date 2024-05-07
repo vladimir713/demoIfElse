@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9463fb6-9a00-4e14-b1f3-68e1c1a0d450" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AliasAbstract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AliasInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Two.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoIfElse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AliasAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/AliasCommon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AliasInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/AliasInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two.java" beforeDir="false" afterPath="$PROJECT_DIR$/Two.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -70,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714762258316</updated>
       <workItem from="1714762262504" duration="5838000" />
+      <workItem from="1715109797517" duration="4844000" />
     </task>
     <servers />
   </component>

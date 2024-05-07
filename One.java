@@ -1,19 +1,18 @@
-public final class One extends AliasAbstract {
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
-    private static One INSTANCE;
-    private One(){
+public final class One extends AliasCommon implements AliasInterface {
+
+//    private Set<String> stringSet = new HashSet<>(Arrays.asList("a", "aa"));
+
+    public One(){
+        new HashSet<>(Arrays.asList("a", "aa")).stream().forEach(i -> mapAlias.put(i, this));
     }
 
     @Override
     public String decode(String value) {
-        return value + 10;
-    }
 
-    public static One getInstance() {
-        if(INSTANCE == null) {
-            INSTANCE = new One();
-            mapAlias.put("a", INSTANCE);
-        }
-        return INSTANCE;
+        return value + 10;
     }
 }

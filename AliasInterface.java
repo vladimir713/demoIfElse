@@ -3,6 +3,6 @@ import java.util.Map;
 
 public interface AliasInterface {
 
-    Map<String, AliasInterface> getMapAlias();
+//    Map<String, AliasInterface> getMapAlias();
     String decode(String value);
 }
